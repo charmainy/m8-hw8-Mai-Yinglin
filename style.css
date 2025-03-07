@@ -69,7 +69,7 @@ section.hero > button {
   background-color: var(--secondary-color);
   border: none;
   padding: 12px 24px;
-  border-radius: 12px;
+  border-radius: 15px;
   text-transform: uppercase;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
@@ -78,11 +78,6 @@ section.hero > button {
 
 section.hero > button:hover {
   background-color: var(--warn-color);
-}
-
-section.hero > button:hover::before {
-  transform: translate(-50%, -50%) scale(1);
-  opacity: 0;
 }
 
 /* article link transitions */
